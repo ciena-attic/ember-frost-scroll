@@ -7,7 +7,7 @@
 [npm-img]: https://img.shields.io/npm/v/ember-frost-scroll.svg "NPM Version"
 [npm-url]: https://www.npmjs.com/package/ember-frost-scroll
  
-# ember-frost-button <br /> [![Travis][ci-img]][ci-url] [![Coveralls][cov-img]][cov-url] [![NPM][npm-img]][npm-url]
+# ember-frost-scroll <br /> [![Travis][ci-img]][ci-url] [![Coveralls][cov-img]][cov-url] [![NPM][npm-img]][npm-url]
 # Frost-scroll
 
 This README outlines the details of collaborating on this Ember addon.
