@@ -7,10 +7,17 @@ var options = {
   loaderExclusions: [],
   enableCoverage: true,
   cliOptions: {
-    reporters: ['json'],
-    autostart: true
+    reporters: ['lcov'],
+    autostart: true,
+    lcovOptions: {
+      outputFile: 'coverage/lcov.info',
+      renamer: function (fileName) {
+        return fileName.replace('ember-frost-scroll', 'addon') + '.js'
+      }
+    }
   }
 }
+
 if (typeof exports === 'undefined') {
   blanket.options(options)
 } else {
