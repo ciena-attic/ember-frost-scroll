@@ -1,6 +1,5 @@
-@import 'bourbon';
-@import 'node_modules/ember-frost-css-core/scss/frost-core';
-@import 'node_modules/ember-frost-theme/scss/frost-theme';
+@import 'node_modules/ember-frost-core/addon/styles/frost-theme';
+@import 'node_modules/ember-frost-core/addon/styles/frost-app';
 
 .dummy-body {
   margin-left: 20px;

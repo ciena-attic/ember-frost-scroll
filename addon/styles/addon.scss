@@ -1,2 +1,11 @@
-@import 'node_modules/ember-frost-theme/scss/frost-theme';
-@import './frost-scroll';
+@import 'node_modules/ember-frost-core/addon/styles/frost-theme';
+
+.frost-scroll  {
+  position: relative;
+  overflow: hidden;
+}
+
+.frost-scroll.full {
+  width: 100%;
+  height: 100%;
+}
